@@ -1,0 +1,165 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: Roboto, sans-serif, Helvetica, Arial;
+    background-color: white;
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #CE7DA5;
+    /* padding: 20px;
+    padding-bottom: 2rem; */
+    /* height: 10px; */
+    display:block;
+}
+
+.nav-top {
+    background-color: black;
+}
+
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 30px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+    list-style: none;
+    background-color: black;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2rem; */
+    background-color: black;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* Style the body section */
+
+#home {
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #456990;
+    box-shadow: 0px 2px 10px 0px;
+    padding: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 20px;
+    background-color: white;
+}
+
+.herosection {
+    display: flex;
+    justify-content: end;
+    border: 20px;
+    padding: 20px;
+
+
+}
+
+.logo {
+    max-width: 30%;
+    height: auto;
+    border-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+}
+
+#primary {
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    padding-left: 20px;
+    width: 50%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    color: black;
+    padding: 20px;
+
+    }
+
+h2 {
+    display:inline-block;
+    font-size: 2rem;
+    font-family: sans-serif, Helvetica, Arial;
+    color: black;
+    padding: 10px;
+}
+
+p {
+    font-size: 1rem;
+    font-family: sans-serif, Helvetica, Arial;
+    color: black;
+    padding: 10px; 
+}
+
+/* Style the footer and social media links */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.social-media-links {
+    list-style: none;
+}
+
+.social-media-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    color: white;
+}
+
